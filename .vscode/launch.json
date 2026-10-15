@@ -5,7 +5,6 @@
       "name": "Debug Frontend (UI & Widgets)",
       "request": "launch",
       "type": "chrome",
-      // Needs to be updated when environmentUrl is changed in app.config.ts
       "url": "https://qmp22335.apps.dynatrace.com/ui/apps/local-dev-server/?locationAppIds=http%3A%2F%2Flocalhost%3A3000%2Fui%2Clocal-dev-server",
       "pathMapping": {
         "/": "${workspaceFolder}",
