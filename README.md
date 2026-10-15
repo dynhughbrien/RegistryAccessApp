@@ -2,6 +2,8 @@
 
 This project was bootstrapped with Dynatrace App Toolkit.
 
+You will need include an Access Token and write it to the Dynatrace Vault 
+
 It uses React in combination with TypeScript, to provide great developer experience.
 
 ## Available Scripts
