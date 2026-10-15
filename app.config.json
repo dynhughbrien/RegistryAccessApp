@@ -1,0 +1,16 @@
+{
+  "$schema": "./.dt-app/app.config.schema.json",
+  "environmentUrl": "https://{TENENT_ID}.apps.dynatrace.com/",
+  "app": {
+    "name": "registry-access-app",
+    "version": "0.0.0",
+    "description": "Check access to the Dynatrace Tenant Registry",
+    "id": "my.registry.access.app",
+    "scopes": [
+      {
+        "name": "environment-api:credentials:read",
+        "comment": "Read the PaaS token from the Credential Vault"
+      }
+    ]
+  }
+}
